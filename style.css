@@ -1,0 +1,70 @@
+.navbar {
+    box-shadow: 0px 1px 3px 1px rgb(0 0 0 / 30%);
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 55px;
+    }
+.navbar .container .logo-image {
+    width: 34px;
+}
+.navbar-brand {
+    margin-right: 2rem;
+}
+.collapse .navbar-nav .nav-item.dropdown .nav-link.dropdown-toggle{
+    color: #ccc;
+    padding-left: 17px;
+    padding-right: 29px;
+}
+
+.navbar-icons, span {
+    color: #ccc;
+}
+
+.li-icons span {
+    font-size: 0.7rem;
+}
+
+.d-flex.li-icons {
+    align-items: center;
+}
+body {
+    background-color: rgb(223, 223, 223);
+}
+.carousel-indicators {
+transform: translateY(50px);
+}
+.carouselExampleIndicators img {
+    height: 400px;
+}
+#carouselExampleIndicators, .cards .card {
+    box-shadow: 0px 1px 3px 1px rgb(0 0 0 / 30%);
+}
+.cards .card img {
+    height: 135px;
+}
+.price-before {
+    font-size: 0.7rem;
+}
+.badge-discount {
+    font-size: 1rem;
+}
+.badge-secondary {
+    background-color: #78397B;
+}
+.between-sections span, .between-sections svg {
+    font-weight: bold;
+    color: blueviolet;
+}
+.headline {
+    display: flex;
+    align-items: baseline;
+}
+/* wanted create |  */
+.between-sections svg::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 3px;
+    left: 0;
+}
