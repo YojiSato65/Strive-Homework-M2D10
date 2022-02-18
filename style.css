@@ -42,6 +42,7 @@ transform: translateY(50px);
 .cards .card img {
     height: 135px;
 }
+
 .price-before {
     font-size: 0.7rem;
 }
@@ -67,4 +68,7 @@ transform: translateY(50px);
     right: 0;
     bottom: 3px;
     left: 0;
+}
+.recommended .card img {
+    height: 200px;
 }
